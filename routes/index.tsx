@@ -52,7 +52,7 @@ export default function Home() {
       {
         name: "Technotex S.A de C.V.",
         role: "Desarrollador Web Full Stack",
-        date: "desde Septiembre 2017, México.",
+        date: "Septiembre 2017 - Actualidad, México.",
         tasks: [
           "Desarrollador Front y Backend del Sistema de Monitoreo SCADA usando React.js, Go y Docker.",
           "Desarrollador de servicios, herramientas para la gestión del sistema, Aplicaciones e interfaces para unidades embebidas, dispositivos de adquisición de datos usando Go.",

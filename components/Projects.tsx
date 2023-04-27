@@ -37,12 +37,12 @@ const tecnology_icons: Record<string, string> = {
 
 export const ProjectsSection = ({ data }: ProjectsProps) => {
   return (
-    <section>
+    <>
       <h3 id="section-projects">{data.title}</h3>
       <div>
         {data.items.map((project) => <ProjectItem data={project} />)}
       </div>
-    </section>
+    </>
   );
 };
 

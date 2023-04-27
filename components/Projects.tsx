@@ -56,7 +56,7 @@ export const ProjectItem = ({ data }: ProjectProps) => {
     videos = [],
   } = data;
   return (
-    <div>
+    <>
       <div class="bg-gray rounded-lg p-2 text-center h-full">
         <h4>{name}</h4>
         <p>
@@ -91,6 +91,6 @@ export const ProjectItem = ({ data }: ProjectProps) => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };

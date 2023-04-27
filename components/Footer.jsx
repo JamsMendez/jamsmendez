@@ -1,5 +1,5 @@
 const Footer = () => (
-  <div class="col-span-2 lg:col-span-1 flex gap-1 items-start justify-between">
+  <footer class="col-span-2 lg:col-span-1 flex gap-1 items-start justify-between">
     <div>
       <h4>Secciones</h4>
       <ul class="list-none">
@@ -97,6 +97,6 @@ const Footer = () => (
         </li>
       </ul>
     </div>
-  </div>
+  </footer>
 );
 export default Footer;

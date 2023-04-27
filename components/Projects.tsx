@@ -37,23 +37,36 @@ const tecnology_icons: Record<string, string> = {
 
 export const ProjectsSection = ({ data }: ProjectsProps) => {
   return (
-    <>
+    <section>
       <h3 id="section-projects">{data.title}</h3>
       <div>
         {data.items.map((project) => <ProjectItem data={project} />)}
       </div>
-    </>
+    </section>
   );
 };
 
 export const ProjectItem = ({ data }: ProjectProps) => {
-  const { name, description, tecnologies = [], links = [], images = [], videos = [] } =
-    data;
+  const {
+    name,
+    description,
+    tecnologies = [],
+    links = [],
+    images = [],
+    videos = [],
+  } = data;
   return (
     <div>
       <div class="bg-gray rounded-lg p-2 text-center h-full">
         <h4>{name}</h4>
-        <p>{description} {links.map(link => <a style={{color: "#FFF"}} target="_blank" href={link.url}>{link.text}</a>)}</p>
+        <p>
+          {description}{" "}
+          {links.map((link) => (
+            <a style={{ color: "#FFF" }} target="_blank" href={link.url}>
+              {link.text}
+            </a>
+          ))}
+        </p>
         <div class="flex flex-wrap justify-start items-center">
           {tecnologies.map((key: string) => (
             <img

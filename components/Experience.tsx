@@ -23,12 +23,12 @@ const Milestone = ({ data }: MilestoneProps) => (
   </div>
 );
 const Experience = ({ data }: ExperienceProps) => (
-  <>
+  <section>
     <h3>{data.title}</h3>
     <div class="space-y-3 lg:space-y-2">
       {data.jobs.map((job) => <Milestone data={job} />)}
     </div>
-  </>
+  </section>
 );
 export default Experience;
 

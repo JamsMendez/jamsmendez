@@ -2,7 +2,7 @@ const Me = () => (
   <div id="section-me" class="flex md:flex-col justify-between gap-10 md:gap-y-3 items-center md:items-start">
     <div class="md:order-2">
       <h1>Jose Ángel Méndez Santiago</h1>
-      <h2 class="my-1">Desarrollador Web</h2>
+      <h2 class="my-1">Desarrollador Web Full Stack</h2>
       <p class="whitespace-pre-wrap">Soy un desarrollador que hace cosas al escribir código 🐈</p>
       <p class="whitespace-pre-wrap">
         <span style={{ color: "#FFFFFF", fontWeight: 400 }}>

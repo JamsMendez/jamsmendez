@@ -55,31 +55,31 @@ export default function Home() {
         date: "desde Septiembre 2017, México.",
         tasks: [
           "Desarrollador Front y Backend del Sistema de Monitoreo SCADA usando React.js, Go y Docker.",
-          "Desarrollor de servicios, herramientas para la gestión del sistema, Aplicaciónes e interfaces para unidades embebidas, dispositivos de adquisición de datos usando Go.",
+          "Desarrollador de servicios, herramientas para la gestión del sistema, Aplicaciones e interfaces para unidades embebidas, dispositivos de adquisición de datos usando Go.",
           "Desarrollador de Aplicación Móvil para Android del sistema de Monitoreo SCADA usando Kotlin y Flutter.",
           "Administrador de base de datos en MySQL y PostgresSQL.",
-          "Desarrollor Backend del sistema Web de Monitoreo SCADA de Django a Go usando Echo.",
-          "Desarrollor de servicios con Node.js y MongoDB para procesar registros del sistema de Monitoreo SCADA.",
-          "Desarrollor Frontend de Aplicación Web de sistema de Monitoreo SCADA usando React.js",
+          "Desarrollador Backend del sistema Web de Monitoreo SCADA de Django a Go usando Echo.",
+          "Desarrollador de servicios con Node.js y MongoDB para procesar registros del sistema de Monitoreo SCADA.",
+          "Desarrollador Frontend de Aplicación Web de sistema de Monitoreo SCADA usando React.js",
         ],
       },
       {
         name: "Desarrollo y Soluciones NextIO S.A. de C.V.",
         role: "Desarrollador de Software",
         tasks: [
-          "Desarrollo del Front y Backend para Aplicaciónes Web y API con Node.js para sistema de Monitoreo SCADA y Geolocalización en Real-Time.",
-          "Desarrollo Móvil Android de Aplicaciónes nativas con Java consumiendo APIs y Geolocalización.",
+          "Desarrollo del Front y Backend para Aplicaciones Web y API con Node.js para sistema de Monitoreo SCADA y Geolocalización en Real-Time.",
+          "Desarrollo Móvil Android de Aplicaciones nativas con Java consumiendo APIs y Geolocalización.",
         ],
         date: "Diciembre 2014 - Agosto 2017, México.",
       },
       {
-        name: "Dysco EP S.A de C.V",
+        name: "Dysco EP S.A de C.V.",
         role: "Desarrollador Web Full Stack",
         tasks: [
           "Desarrollador Full Stack para mantener el sistema principal de Monitoreo y Real-Time con Laravel, MySQL, MongoDB y Angular.js.",
           "Desarrollo del Frontend de una Aplicación Web migrando a Angular.js.",
           "Desarrollo del Frontend de Aplicación Web para el sistema principal de Monitoreo y Real-Time con Backbone.js.",
-          "Desarrollo del Front y Backend de un sistema Web ERP para proceso de gestión empresaria como parte del cumplimiento de la certificación ISO 9001 usando Backbone.js, Node.js y MongoDB.",
+          "Desarrollo del Front y Backend de un sistema Web ERP para proceso de gestión empresarial como parte del cumplimiento de la certificación ISO 9001 usando Backbone.js, Node.js y MongoDB.",
         ],
         date: "Junio 2013 - Diciembre 2014, México",
       },
@@ -114,7 +114,7 @@ export default function Home() {
       },
       {
         name: "GearsTracking",
-        description: "Sistema de Geolocalización de Vehiculos",
+        description: "Sistema de Geolocalización de vehículos",
         tecnologies: ["React", "Node", "MongoDB", "Android", "Kotlin"],
         links: [],
         images: [

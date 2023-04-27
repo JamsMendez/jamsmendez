@@ -21,12 +21,12 @@ const Section = ({ section }: SectionProps) => {
 };
 
 const Skills = ({ data }: SkillsProps) => (
-  <section>
+  <>
     <h3>{data.title}</h3>
     <div class="space-y-3">
       {data.sections.map((section) => <Section section={section} />)}
     </div>
-  </section>
+  </>
 );
 
 export default Skills;

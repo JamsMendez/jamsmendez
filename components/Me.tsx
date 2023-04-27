@@ -1,5 +1,5 @@
 const Me = () => (
-  <section id="section-me" class="flex md:flex-col justify-between gap-10 md:gap-y-3 items-center md:items-start">
+  <div id="section-me" class="flex md:flex-col justify-between gap-10 md:gap-y-3 items-center md:items-start">
     <div class="md:order-2">
       <h1>Jose Ángel Méndez Santiago</h1>
       <h2 class="my-1">Desarrollador Web Full Stack</h2>
@@ -21,7 +21,7 @@ const Me = () => (
       width="150"
       alt="Portrait von Max Schmidt"
     />
-  </section>
+  </div>
 );
 
 export default Me;

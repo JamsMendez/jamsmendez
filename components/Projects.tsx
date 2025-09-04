@@ -15,7 +15,7 @@ const tecnology_icons: Record<string, string> = {
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
   React:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-  Preact: "https://preactjs.com/assets/app-icon.png",
+  Preact: "https://preactjs.com/branding/symbol.png",
   Docker:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
   MongoDB:

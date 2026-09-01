@@ -1,24 +1,15 @@
-# Fresh project
+# JamsMendez portfolio
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+Personal portfolio for Jose Ángel Méndez Santiago, built with Fresh 2 and
+Preact.
 
-### Usage
+## Commands
 
-Make sure to install Deno:
-https://docs.deno.com/runtime/getting_started/installation
-
-Then start the project in development mode:
-
-```
-deno task dev
+```sh
+deno task dev    # Start the development server
+deno task check  # Check formatting, linting, and types
+deno task build  # Build the production application
+deno task start  # Run the production build
 ```
 
-This will watch the project directory and restart as necessary.
-
-
-### Clone and deploy
-
-Deploy your own version of this example with a couple of clicks
-
-[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/denoland/examples&path=with-fresh)
+Deno is required. Static portfolio assets are served from `static/`.

@@ -29,7 +29,9 @@ const technologyIcons: Record<string, string> = {
   Flutter: "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
   Dart: "https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg",
   Raspberry:
-    "https://upload.wikimedia.org/wikipedia/de/thumb/c/cb/Raspberry_Pi_Logo.svg/475px-Raspberry_Pi_Logo.svg.png?20120729132916",
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg",
+  Laravel:
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg",
 };
 
 export function ProjectsSection({ data }: ProjectsProps) {

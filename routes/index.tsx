@@ -16,18 +16,21 @@ const skills: SkillsData = {
   sections: [
     {
       title: "Lenguajes de Programación",
-      skills: ["Go", "Javascript", "Kotlin", "Java", "PHP"],
+      skills: ["Go", "JavaScript", "Kotlin", "Java", "PHP"],
     },
     {
-      title: "Frameworks y Librerias",
+      title: "Frameworks y librerías",
       skills: [
+        "Chi",
         "Echo",
         "Gin",
         "Fiber",
         "React",
         "Preact",
         "Vue",
+        "Nuxt.js",
         "Node.js",
+        "NestJS",
         "Deno",
         "Express",
         "Hono",
@@ -41,6 +44,8 @@ const skills: SkillsData = {
       title: "Conocimientos",
       skills: [
         "Linux",
+        "AWS EC2",
+        "Administración de servidores y despliegue de aplicaciones",
         "Docker",
         "Podman",
         "Nginx",
@@ -74,6 +79,18 @@ const skills: SkillsData = {
 const experience: ExperienceData = {
   title: "Experiencia",
   jobs: [
+    {
+      name: "Alien 2.0",
+      role: "Desarrollador Backend y Full Stack",
+      date: "Noviembre 2025 -- Actualidad",
+      tasks: [
+        "Desarrollo de servicios backend con Go e integración con bases de datos SQL.",
+        "Desarrollo de aplicaciones full stack con NestJS y Nuxt.js (Vue.js), utilizando bases de datos SQL.",
+        "Integración de inteligencia artificial para el análisis de documentos, imágenes, audio y contenido de redes sociales, y la generación de contenido.",
+        "Desarrollo de funcionalidades de análisis de mensajes de chat (texto, imágenes y audio) para extraer, estructurar y organizar información mediante inteligencia artificial.",
+        "Administración de servidores y despliegue de aplicaciones en AWS EC2.",
+      ],
+    },
     {
       name: "Technotex S.A de C.V.",
       role: "Desarrollador Web Full Stack",
@@ -130,7 +147,8 @@ const projects: Projects = {
       links: [
         {
           text: "Ver más ...",
-          url: "https://technotex.com/servicios/desarrollo-de-software-para-telemetria-y-automatizacion",
+          url:
+            "https://technotex.com/servicios/desarrollo-de-software-para-telemetria-y-automatizacion",
         },
       ],
       images: [],

@@ -15,13 +15,13 @@ export default function Slideshow({ images, projectName }: SlideshowProps) {
 
   const showPrevious = () => {
     setCurrentSlide((current) =>
-      current === 0 ? images.length - 1 : current - 1,
+      current === 0 ? images.length - 1 : current - 1
     );
   };
 
   const showNext = () => {
     setCurrentSlide((current) =>
-      current === images.length - 1 ? 0 : current + 1,
+      current === images.length - 1 ? 0 : current + 1
     );
   };
 
@@ -52,13 +52,14 @@ export default function Slideshow({ images, projectName }: SlideshowProps) {
               decoding="async"
               onLoad={(event) => {
                 const { naturalHeight, naturalWidth } = event.currentTarget;
-                const orientation =
-                  naturalHeight > naturalWidth ? "portrait" : "landscape";
+                const orientation = naturalHeight > naturalWidth
+                  ? "portrait"
+                  : "landscape";
 
                 setSlideOrientations((orientations) =>
                   orientations[index] === orientation
                     ? orientations
-                    : { ...orientations, [index]: orientation },
+                    : { ...orientations, [index]: orientation }
                 );
               }}
             />

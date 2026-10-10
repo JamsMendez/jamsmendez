@@ -18,9 +18,7 @@ function Milestone({ data }: MilestoneProps) {
         <h4>{data.name}</h4>
         <h5>{data.role}</h5>
         <ul>
-          {data.tasks.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
+          {data.tasks.map((item) => <li key={item}>{item}</li>)}
         </ul>
       </div>
       <p class="milestone__date">{data.date}</p>
@@ -35,9 +33,7 @@ export default function Experience({ data }: ExperienceProps) {
         {data.title}
       </h3>
       <div class="section-body experience-list">
-        {data.jobs.map((job) => (
-          <Milestone key={job.name} data={job} />
-        ))}
+        {data.jobs.map((job) => <Milestone key={job.name} data={job} />)}
       </div>
     </section>
   );

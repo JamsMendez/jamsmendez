@@ -157,6 +157,10 @@ ul {
   gap: 2rem;
 }
 
+.profile__tagline {
+  font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+}
+
 .profile address {
   display: flex;
   flex-direction: column;

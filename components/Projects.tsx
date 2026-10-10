@@ -10,7 +10,8 @@ interface ProjectProps {
 }
 
 const technologyIcons: Record<string, string> = {
-  Go: "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
+  Go:
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg",
   React:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
   Preact: "https://preactjs.com/branding/symbol.png",
@@ -20,7 +21,8 @@ const technologyIcons: Record<string, string> = {
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
   MySQL:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-  Node: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+  Node:
+    "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
   Android:
     "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg",
   Kotlin: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
@@ -60,8 +62,7 @@ export function ProjectItem({ data }: ProjectProps) {
     <article class="project-card">
       <h4>{name}</h4>
       <p>
-        {description}{" "}
-        {links.map((link) => (
+        {description} {links.map((link) => (
           <a
             key={link.url}
             href={link.url}
@@ -75,16 +76,16 @@ export function ProjectItem({ data }: ProjectProps) {
       <ul class="technology-list" aria-label={`Tecnologías de ${name}`}>
         {tecnologies.map((technology) => (
           <li key={technology}>
-            {technologyIcons[technology] ? (
-              <img
-                src={technologyIcons[technology]}
-                alt={technology}
-                title={technology}
-                loading="lazy"
-              />
-            ) : (
-              <span>{technology}</span>
-            )}
+            {technologyIcons[technology]
+              ? (
+                <img
+                  src={technologyIcons[technology]}
+                  alt={technology}
+                  title={technology}
+                  loading="lazy"
+                />
+              )
+              : <span>{technology}</span>}
           </li>
         ))}
       </ul>

@@ -13,9 +13,7 @@ function Section({ section }: SkillSectionProps) {
     <section class="skills__group">
       <h4>{section.title}</h4>
       <ul class="skills__list">
-        {section.skills.map((skill) => (
-          <li key={skill}>{skill}</li>
-        ))}
+        {section.skills.map((skill) => <li key={skill}>{skill}</li>)}
       </ul>
     </section>
   );
